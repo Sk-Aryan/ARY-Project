@@ -8,6 +8,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
     color: #333;
+    align-items: center;
 }
 
 header {
@@ -48,21 +49,30 @@ h1, h2, h3 {
 }
 
 .dog {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    padding-left: 20px;
-    margin: auto;
-    width: 15%;
-    margin: 10px;
-}
-
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 20px;
+        padding-left: 20px;
+        margin: auto;
+        width: 20%;
+        margin: 10px;
+        image-rendering: optimizeQuality;
+        text-align: left;
+        font-size: 80%;
+        
+    }
+    
 .dog img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin-bottom: 10px;
-}
+        height: 70%; 
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+        
+    }
+
+
+  
+
 
 footer {
     background-color: #333;
